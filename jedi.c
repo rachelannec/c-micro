@@ -2,6 +2,7 @@
 
 int main() 
 {
+	// school activity - 20241112
     int height, age, c_code, r_code;
 
     printf("Applicant's height(cm): ");
