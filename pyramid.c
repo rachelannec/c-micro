@@ -15,3 +15,5 @@ int main()
         printf("\n");
     }
 }
+
+// usually for this one, they use * instead
