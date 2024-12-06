@@ -1,6 +1,20 @@
 // this one is a failed attempt
 // because this
 
+// The dates for the 12 zodiac signs are:
+// Aries: March 21–April 19
+// Taurus: April 20–May 20
+// Gemini: May 21–June 21
+// Cancer: June 22–July 22
+// Leo: July 23–August 22
+// Virgo: August 23–September 22
+// Libra: September 23–October 23
+// Scorpio: October 24–November 21
+// Sagittarius: November 22–December 21
+// Capricorn: December 22–January 19
+// Aquarius: January 20–February 18
+// Pisces: February 19–March 20
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -9,45 +23,32 @@ int main(int argc, const char * argv[])
 {
 	char birthmonth[80];
 	int birthday;
-	printf("What is your birth month? (enter in lower case): ");
+	printf("What is your birth month and birthday? (enter in lower case): ");
 	scanf("%79s", &birthmonth);
-	printf("What is your birthday? : ");
 	scanf("%d", &birthday);
 	
 	
 	// aries
-	if (strcmp(birthmonth, "march") == 0 || strcmp(birthmonth, "april") == 0)
-		{
-			if (birthday <=  21 || birthday >= 19)
-		{
-			printf("Symbol : Ram \n");
-		}
-	}	
+	if (strcmp(birthmonth, "march") == 0 && birthday >= 21 && birthday <=31 || strcmp(birthmonth, "april") == 0 && birthday <= 19)	
+			printf("Symbol : Ram \n"); 	
+
 	// taurus
-	if (strcmp(birthmonth, "april") == 0 || strcmp(birthmonth, "may") == 0)
-		{
-			if (birthday <= 20 || birthday >= 20)
-		{
+	else if (strcmp(birthmonth, "april") == 0 && birthday >= 20 && birthday <=31  || strcmp(birthmonth, "may") == 0 && birthday <= 20)
 			printf("Symbol : Bull \n");
-		}
-	}
+		
 	
 	// gemini
-	if (strcmp(birthmonth, "may") == 0 &&  birthday == 20 || strcmp(birthmonth, "june") == 0 && birthday >= 21)
-		{
+	else if (strcmp(birthmonth, "may") == 0 &&  birthday >= 21 && birthday <= 31 || strcmp(birthmonth, "june") == 0 && birthday <= 21)
 			printf("Symbol : Twins \n");
-		}
 	
 	
 	// cancer
-	if (strcmp(birthmonth, "june") == 0 && birthday <=  22 || strcmp(birthmonth, "july") == 0 && birthday >= 22)
-		{
+	else if (strcmp(birthmonth, "june") == 0 && birthday >=  22 && birthday <= 31|| strcmp(birthmonth, "july") == 0 && birthday <= 22)
 			printf("Symbol : Crab \n");
-		}
 	
 	
 	// leo
-	if (strcmp(birthmonth, "july") == 0  &&  birthday <=  23|| strcmp(birthmonth, "august") == 0 && birthday <=  22)
+	else if (strcmp(birthmonth, "july") == 0  &&  birthday >=  23 && birthday <= 31|| strcmp(birthmonth, "august") == 0 && birthday <=  22)
 		
 		{
 			printf("Symbol : Lion \n");
@@ -55,64 +56,39 @@ int main(int argc, const char * argv[])
 	
 		
 	// virgo
-	if (strcmp(birthmonth, "august") == 0 && birthday <=  23 || strcmp(birthmonth, "september") ==  0 && birthday <=  22)
-
-		{
+	else if (strcmp(birthmonth, "august") == 0 && birthday >=  23 && birthday <= 31 || strcmp(birthmonth, "september") ==  0 && birthday <=  22)
 			printf("Symbol : Virgin \n");
-		}
 	
 	
 	// libra
-	if (strcmp(birthmonth, "september") == 0 && birthday <=  23|| strcmp(birthmonth, "october") == 0 && birthday <=  23)
-		{
+	else if (strcmp(birthmonth, "september") == 0 && birthday >=  23 && birthday <= 31 || strcmp(birthmonth, "october") == 0 && birthday <=  23)
 			printf("Symbol : Balance \n");
-		}
 	
 	
 	// scorpions
-	if (strcmp(birthmonth, "october") == 0 || strcmp(birthmonth, "november") == 0)
-		{
-			if (birthday <=  24 || birthday >= 21)
-		{
+	else if (strcmp(birthmonth, "october") == 0 && birthday >= 24 && birthday <= 31|| strcmp(birthmonth, "november") == 0 && birthday <= 21)
 			printf("Symbol : Scorpions \n");
-		}
-	}
+		
 	
 	// saggi
-	if (strcmp(birthmonth, "november") == 0 || strcmp(birthmonth, "december") == 0)
-		{
-			if (birthday <=  22 || birthday >= 21)
-		{
+	else if (strcmp(birthmonth, "november") == 0 && birthday >= 22 && birthday <= 31|| strcmp(birthmonth, "december") == 0 && birthday <= 21)
 			printf("Symbol : Archer \n");
-		}
-	}
+
 	
 	// capri
-	if (strcmp(birthmonth, "december") == 0 || strcmp(birthmonth, "january") == 0)
-		{
-			if (birthday <=  22 || birthday >= 19)
-		{
+	else if (strcmp(birthmonth, "december") == 0 && birthday >= 22 && birthday <= 31|| strcmp(birthmonth, "january") == 0 && birthday <= 19)
 			printf("Symbol : Goat \n");
-		}
-	}
+
 	
 	// aquarius
-	if (strcmp(birthmonth, "january") == 0 || strcmp(birthmonth, "february") == 0)
-		{
-			if (birthday <=  20 || birthday >= 18)
-		{
+	else if (strcmp(birthmonth, "january") == 0 && birthday >= 20 && birthday <= 31|| strcmp(birthmonth, "february") == 0 && birthday <= 18)
 			printf("Symbol : Water Bearer \n");
-		}
-	}
 	
+
 	// pisces
-	if (strcmp(birthmonth, "february") == 0 || strcmp(birthmonth, "march") == 0)
-		{
-			if (birthday <=  19 || birthday >= 20)
-		{
+	if (strcmp(birthmonth, "february") == 0 && birthday >= 19 && birthday <= 31|| strcmp(birthmonth, "march") == 0 && birthday <= 20)
 			printf("Symbol : Fish \n");
-		}
-	}
+
 	
 	return 0;
 
