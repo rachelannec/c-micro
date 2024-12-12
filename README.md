@@ -35,7 +35,7 @@ time.c | A program the same as ```seconds.c```, but uses math instead of loops.
 your-emotion.c | A program similar to ```sad-happy.c```, but you can input any of your emotion (just don't add pronouns or make it a sentence like "i'm fine", just put "fine". lol
 zodiac.sign.c | A program that ask for your birthday and prints your zodiac symbol.
 
-🤷‍♀️ copilot might be the one describing the program (long as it right nyahaha)
+
 
 
 
