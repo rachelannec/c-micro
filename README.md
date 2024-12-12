@@ -4,27 +4,27 @@
 
 about the file in here
 
-name | description|
-|---------------------------------------|------------------------------|
+program name | description |
+|------------------------------------------------------------------------------|------------------------------|
 better-cash.c | This code calculates the number of each denomination of bills (1000, 500, 100, 50, 20, 10, 5, and 1 pesos) needed to represent a given cash amount, and then prints the results. 
 bubble-my.c | Sort an array using bubble sort algorithm.
 cash.c | Calculate the number of each denomination, but uses while loop.
-dynamic-array.c | -- 
-exercise5-3.c | --
-exercise5-4.c | --
-exercise5-5.c | --
-factorial.c | --
-goldbach-2.c | --
-hello.c | --
-insertion.c | --
-integer-eo.c | --
-jedi.c | --
-largest.c | --
-looping-1.c | --
-looping-2.c | --
-looping-3.c | --
-menu.c | --
-pyramid-number.c | --
+dynamic-array.c | This program dynamically allocates memory for an array based on user input, stores user-provided integers in that array, prints the entered values, and then frees the allocated memory. 
+exercise5-3.c | This program takes two numerical lists that end with a sentinel value, stores them in arrays X and Y (each with a maximum of 20 elements), calculates the product of corresponding elements into array Z, sums the elements of Z, and then prints the square root of this sum. It handles dynamic input lengths using the sentinel value to signify the end of input.
+exercise5-4.c | A program that would store 11 numbers in a one dimensional array. Store the sum of the two succeeding pairs in another array. Hence, only 10 integers will be stored in the second array.
+exercise5-5.c | A program that accepts as input student name and the set of their test answers as one dimensional array. The program should grade the test. If the student choice is 1 give 1 point. If the choice is 2, give 2 points. 3 points if choice answer is 3 and 4 pints for answer 4 and choice 5 is 5 points. Otherwise no point is given to other choices. Print out the average score of the student in the test.
+factorial.c | A program that take 0 or any positive integer and output its factorial.
+goldbach-2.c | This program finds and prints two prime numbers that sum up to every even number between 700 and 1100. For each even number in this range, it checks all pairs of numbers to see if they are both prime and if their sum equals the current even number. If such a pair is found, it prints the equation and moves to the next even number.
+hello.c | Output ```Hello world```
+insertion-m.c | A program that sorts an array using insertion algorigthm 
+integer-eo.c | This program prompts the user to enter a number and then determines if the number is positive, negative, or zero, as well as whether it is even or odd, and prints the corresponding message.
+jedi.c | This program collects an applicant's height, age, citizenship status, and recommendation status to determine their acceptance to the Jedi Knight Academy. It prints an acceptance message if the applicant is either recommended, meets specific height and age criteria, or has the required citizenship status. Otherwise, it prints a rejection message.
+largest.c | A program that take three numbers and prints out which is the largest.
+looping-1.c | A program that prints ```1 2 3 4 5 6 7 8 9 10``` using loops. 
+looping-2.c | A program that prints ```2 4 6 8 10``` using loops. 
+looping-3.c | A program that prints ```1 3 5 7 9``` using loops. 
+menu.c | HAVEN'T FIX THIS YET
+pyramid-number.c | This program prints a triangular pattern of numbers in descending order. Output, <br> ```321``` <br> ```32``` <br>```3```
 pyramid.c | --
 sad-or-happy.c | --
 salary.c | --
@@ -34,6 +34,8 @@ swap.c | --
 time.c | --
 your-emotion.c | --
 zodiac.sign.c | --
+
+🤷‍♀️ copilot might be the one describing the program (long as it right nyahaha)
 
 
 
