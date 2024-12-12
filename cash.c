@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <cs50.h>
+// #include <cs50.h>
 
 int main(void)
 {
@@ -16,7 +16,9 @@ int main(void)
     int one = 0;
 
 
-    cash = get_int("Cash on hand : ");
+    printf("Cash in hand: ");
+    scanf("%d", &cash);
+
 
     // total cash hand
 
