@@ -36,7 +36,7 @@ your-emotion.c | A program similar to ```sad-happy.c```, but you can input any o
 zodiac.sign.c | A program that ask for your birthday and prints your zodiac symbol.
 practice-function.c | A program that ask for two number then calculate (addition, subtraction, multiplication, division) and display its results —  coded with the use of functions as practice for me... something like that.
 
-🤷‍♀️ copilot might be the one describing the program (long as it right nyahaha)
+
 
 
 
