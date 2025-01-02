@@ -2,7 +2,7 @@
 ### small things coded in c to be stored here.😌✌
 
 
-about the file in here
+about the files in here
 
 program name | description |
 |------------------------------------------------------------------------------|------------------------------|
