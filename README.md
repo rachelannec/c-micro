@@ -37,6 +37,7 @@ zodiac.sign.c | A program that ask for your birthday and prints your zodiac symb
 practice-function.c | A program that ask for two number then calculate (addition, subtraction, multiplication, division) and display its results —  coded with the use of functions as practice for me... something like that.
 factorial-function.c | Pretty similar to ``` factorial.c ```, but this one uses functions.
 menu-function.c | A program like ``` menu.c ```, but this one works. 
+library-practice<br>├── app.exe<br>├── library.c<br>├── library.h<br>└── main.c | DIY library
 
 
 
