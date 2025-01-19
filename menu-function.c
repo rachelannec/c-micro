@@ -2,32 +2,40 @@
 #include <stdbool.h>
 
 //plato, smiley, volume
-int plato(int age)
+void plato()
 {
 	printf("============================================================= \n");
 	printf("PLATO \n\n");
-	//	age = 0; 
+	int	age = 0; 
+	char sex;
+	printf("Are male or female? (m/f): ");
+	scanf(" %c", &sex);
 	printf("Enter you age: ");
 	scanf("%d", &age);
 	
-	if (age < 18)
+	if (age < 18) 
 	{
 		printf("Too young. Try again after %d year/s!\n", 18 - age);
 		printf("============================================================= \n");	
 	}
-	else if (age <= 18 || age <= 21) // because upon testing, if you are around this age, you'll get a minor.. so.. yeahh ;-;
+	else if (age <= 18 || age <= 21 && sex == 'm' || sex == 'M') // because upon testing, if you are around this age, you'll get a minor.. so.. yeahh ;-;
 	{
 		printf("\nYour ideal partner's age is 18.\n");
 		printf("============================================================= \n");
 	}
-	else
+	else if (age > 21 && sex == 'm' || sex == 'M')
 	{
 		age = (age / 2) + 7;
 		printf("\nYour ideal partner's age is %d.\n", age);
 		printf("============================================================= \n");
 	}
+	else 
+	{
+		age = (age - 7) * 2;
+		printf("\nYour ideal partner's age is %d.\n", age);
+	}
 	
-	return 0;
+//	if girl, partner = 2*(age-7)
 }
 
 void smiley() // late to realize that maybe I could use void instead lol
@@ -73,7 +81,7 @@ int main()
 		
 		if (choice1 == 1)
 		{
-			plato(0); // argument to 0 as initialization to age
+			plato(); // argument to 0 as initialization to age
 		}
 		else if (choice1 == 2)
 		{
