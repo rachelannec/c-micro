@@ -11,14 +11,14 @@ int main(){
     int e = multiply(a, b);
     float r = divide(a, b);
     int t = square(a);
-    int y = squareRoot(c);
+    double y = squareRoot(c);
 
     printf("Addition: %d\n", q);
     printf("Subtraction: %d\n", w);
     printf("Multiplication: %d\n", e);
     printf("Division: %f\n", r);
     printf("Square: %d\n", t);
-    printf("Square Root: %d\n", y);
+    printf("Square Root: %.1lf\n", y);
 
 	
 	// printf("%d", add(2, 5));
