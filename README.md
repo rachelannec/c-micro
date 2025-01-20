@@ -4,7 +4,7 @@
 
 about the files in here
 
-program name | description |
+&nbsp; &nbsp; &nbsp; &nbsp; program name &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | description |
 |------------------------------------------------------------------------------|------------------------------|
 better-cash.c | This code calculates the number of each denomination of bills (1000, 500, 100, 50, 20, 10, 5, and 1 pesos) needed to represent a given cash amount, and then prints the results. 
 bubble-my.c | Sort an array using bubble sort algorithm.
@@ -37,7 +37,7 @@ zodiac.sign.c | A program that ask for your birthday and prints your zodiac symb
 practice-function.c | A program that ask for two number then calculate (addition, subtraction, multiplication, division) and display its results —  coded with the use of functions as practice for me... something like that.
 factorial-function.c | Pretty similar to ``` factorial.c ```, but this one uses functions.
 menu-function.c | A program like ``` menu.c ```, but this one works. 
-library-practice<br>├── app.exe<br>├── library.c<br>├── library.h<br>└── main.c | DIY library
+library-practice<br>├── app.exe<br>├── library.c<br>├── library.h<br>└── main.c | DIY library <br> To use it, run ``` gcc -o app main.c library.c ``` on your terminal, the ``` app ``` will be name of the executable file, you may change it to whatever you like.
 
 
 
