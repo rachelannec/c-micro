@@ -25,7 +25,7 @@ int square(int x) {
 	return x*x;
 }
 
-int squareRoot(int x){
+int sqrt(int x){
 	return sqrt(x);
 }
 
