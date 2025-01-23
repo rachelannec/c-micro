@@ -38,7 +38,11 @@ practice-function.c | A program that ask for two number then calculate (addition
 factorial-function.c | Pretty similar to ``` factorial.c ```, but this one uses functions.
 menu-function.c | A program like ``` menu.c ```, but this one works. 
 library-practice<br>├── app.exe<br>├── library.c<br>├── library.h<br>└── main.c | DIY library <br> To use it, run ``` gcc -o app main.c library.c ``` on your terminal, the ``` app ``` will be name of the executable file, you may change it to whatever you like.
-
+array.c | A program that lets you enter up to 10 integers and store it in an array.
+palindrome-practice.c | A program that lets you input a string and checks if it is a palindrome or not.
+predef-samples.c | Code during discussion on predefined functions.
+pyramid-function.c | A program that lets you enter a number as a height of the pyramid.
+swap-function.c | A program that lets the user input 2 numbers then swap the the values.
 
 
 
