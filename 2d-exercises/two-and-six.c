@@ -19,7 +19,7 @@ void max2d(int arr[ROW][COL]){
 			}
 		}
 	}
-	printf("The maximum element is in position (%d, %d), or ROW %d COL %d.", currMaxI, currMaxJ, currMaxI+1, currMaxJ+1);
+	printf("The maximum element %d is in position (%d, %d), or ROW %d COL %d.", arr[currMaxI][currMaxJ], currMaxI, currMaxJ, currMaxI+1, currMaxJ+1);
 }
 
 void printArr(int arr[ROW][COL]){
@@ -35,9 +35,10 @@ int main(){
 	int arr[ROW][COL] = {
 		{2,3,5},
 		{9,6,7},
-		{1,4,8}
+		{1,400,8}
 	};
 	printArr(arr);
+	printf("\n");
 	max2d(arr);
 	
 	
