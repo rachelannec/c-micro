@@ -4,8 +4,8 @@
 
 about the files in here
 
-&nbsp; &nbsp; &nbsp; &nbsp; program name &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | description |
-|------------------------------------------------------------------------------|------------------------------|
+program name| description 
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|
 better-cash.c | This code calculates the number of each denomination of bills (1000, 500, 100, 50, 20, 10, 5, and 1 pesos) needed to represent a given cash amount, and then prints the results. 
 bubble-my.c | Sort an array using bubble sort algorithm.
 cash.c | Calculate the number of each denomination, but uses while loop.
