@@ -1,0 +1,11 @@
+Record of Patients
+Name: John Walker
+Age: 34
+Condition: Alcohol Poisoning
+Doctor: Dr. Koothrapali
+
+Name: Anna Stakovia
+Age: 45
+Condition: Gunshot Wound
+Doctor: Dr. Cooper
+

@@ -1,0 +1,4 @@
+Product Code	Product Name	Quantity
+
+PN		Pencil		45
+ER		Eraser		65
